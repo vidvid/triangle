@@ -1,4 +1,4 @@
-package com.vizog.triangle;
+package com.vizog.triangle.model;
 
 /**
  *
