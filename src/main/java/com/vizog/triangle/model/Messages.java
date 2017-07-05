@@ -1,6 +1,7 @@
 package com.vizog.triangle.model;
 
 /**
+ * Static messages
  * Created by Vahid on 7/5/17.
  */
 public class Messages {

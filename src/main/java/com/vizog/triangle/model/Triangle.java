@@ -1,6 +1,11 @@
 package com.vizog.triangle.model;
 
 /**
+ * This abstract class represents a triangle.
+ * Note that for creating various types of triangles you should use {@link TriangleFactory} methods.
+ * In order to prevent creation of Triangle objects without validation, I have made the
+ * constructors package private which are only accessible by TriangleFactory class.
+ *
  * Created by Vahid on 7/5/17.
  */
 public abstract class Triangle {
@@ -21,7 +26,6 @@ public abstract class Triangle {
     }
 
     public abstract TriangleType getType();
-
 
 }
 

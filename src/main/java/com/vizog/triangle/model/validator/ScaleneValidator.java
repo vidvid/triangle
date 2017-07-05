@@ -1,6 +1,7 @@
 package com.vizog.triangle.model.validator;
 
 /**
+ * Implements methods for matching and validating scalene triangle
  * Created by Vahid on 7/5/17.
  */
 public class ScaleneValidator extends TriangleValidator {
@@ -11,7 +12,7 @@ public class ScaleneValidator extends TriangleValidator {
     }
 
     @Override
-    protected boolean matchesSides(int a, int b, int c) {
+    protected boolean matchesSidesForType(int a, int b, int c) {
         return true;
     }
 
