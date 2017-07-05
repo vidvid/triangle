@@ -35,7 +35,7 @@ public class TriangleFactory {
         return new Isosceles(a, b, c);
     }
 
-    public static Triangle Scalene(int a, int b, int c) {
+    public static Triangle scalene(int a, int b, int c) {
         scaleneValidator.validate(a, b, c);
         return new Scalene(a, b, c);
     }
