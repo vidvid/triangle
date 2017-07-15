@@ -25,5 +25,4 @@ This class uses various validator types (one for each type of triangle) to check
    TriangleFactory static methods which ensure the validation.
   
   
-  
  
